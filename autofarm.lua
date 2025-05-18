@@ -47,7 +47,7 @@ local bondPoints = {
 
 -- 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "ObamHubGui"
+screenGui.Name = "SarynHubGui"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = player:WaitForChild("PlayerGui")
 
@@ -198,7 +198,7 @@ local footer = Instance.new("TextLabel")
 footer.Size = UDim2.new(1, 0, 0, 40)
 footer.Position = UDim2.new(0, 0, 1, -150)
 footer.BackgroundTransparency = 1
-footer.Text = " Auto Farm "
+footer.Text = "Obam Hub | Auto Bond"
 footer.Font = Enum.Font.GothamBold
 footer.TextColor3 = Color3.fromRGB(255, 255, 255)
 footer.TextScaled = true
